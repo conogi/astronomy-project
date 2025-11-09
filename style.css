@@ -94,45 +94,24 @@ h1 {
     justify-content: space-between;
 }
 
-.member-container {
-    padding: 2%;
-    margin: auto;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.member-container figure {
-    padding: 2%;
-    margin: 2%;
-    background-color: #E0E0E0;
-    border-radius:10px;
-    box-shadow: 10px 7px 7px rgba(0, 0, 0, 0.200);
-    transition: transform 0.4s;
-}
-
-.member-container figure h2 {
-    font-size: 1.3em;
-}
-
-.member-container figure h3 {
-    font-size: 1em;
-}
-
-.member-container figure:hover {
-    transform: translateY(-40px);
-}
-
 .invention-container-black {
     background-color: #000000;
     color: #ffffff;
 }
 
+.invention-container-black img {
+    box-shadow: 10px 7px 7px rgb(255, 255, 255, 0.25);
+    border-radius: 8px;
+}
+
 .invention-container-white {
     background-color: #ffffff;
     color: #000000;
+}
+
+.invention-container-white img {
+    box-shadow: 10px 7px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
 }
 
 .invention-container-black, .invention-container-white {
